@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/KemoWebZoon/reactProject/static/css/main.1f381a93.css",
-    "main.js": "/KemoWebZoon/reactProject/static/js/main.836bb64d.js",
-    "index.html": "/KemoWebZoon/reactProject/index.html",
-    "main.1f381a93.css.map": "/KemoWebZoon/reactProject/static/css/main.1f381a93.css.map",
-    "main.836bb64d.js.map": "/KemoWebZoon/reactProject/static/js/main.836bb64d.js.map"
+    "main.css": "/reactProject/static/css/main.1f381a93.css",
+    "main.js": "/reactProject/static/js/main.836bb64d.js",
+    "index.html": "/reactProject/index.html",
+    "main.1f381a93.css.map": "/reactProject/static/css/main.1f381a93.css.map",
+    "main.836bb64d.js.map": "/reactProject/static/js/main.836bb64d.js.map"
   },
   "entrypoints": [
     "static/css/main.1f381a93.css",
