@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #0078d7;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header .logo h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header .links ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header .links ul li {
+  margin: 0 15px;
+}
+
+header .links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+header .links ul li a:hover {
+  color: #cce7ff;
+}
+
+body > #root {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square {
+  background: #e3e3e3;
+  border: 2px solid #0078d7;
+  font-size: 36px;
+  font-weight: bold;
+  color: #0078d7;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -1px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.square:hover {
+  background: #d1e7ff;
+}
+
+.board-row {
+  display: flex;
+}
+
+.game-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-info ol {
+  list-style: none;
+  padding: 0;
+}
+
+.game-info ol li {
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #0078d7;
+  background: #f0f8ff;
+  color: #0078d7;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0078d7;
+  color: #ffffff;
+}
