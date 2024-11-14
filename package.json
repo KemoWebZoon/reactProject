@@ -1,7 +1,7 @@
 {
   "name": "tictac",
   "version": "0.1.0",
-  "homepage": "https://KemoWebZoon.github.io/tictac",
+  "homepage": "https://kemowebzoon.github.io/reactProject",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
